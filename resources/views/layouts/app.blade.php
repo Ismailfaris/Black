@@ -63,7 +63,11 @@
     </div>
     <div class="text-center footer">
 
+<<<<<<< HEAD
         <h4>Welcome 😎</h4>
+=======
+        <h4>Welcome</h4>
+>>>>>>> 2a25bfd626bae6931cbe166e8dcba50d272a372d
 
     </div>
 </body>
