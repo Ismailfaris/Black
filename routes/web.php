@@ -19,7 +19,11 @@ Route::get('/', function () {
 });
 
 
-Route::resource('projects', ProjectController::class);
+Route::resource('projects', ProjectController::class)->middleware('auth');;
 
 // Route::resource('projects', 'ProjectController');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
