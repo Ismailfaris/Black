@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 
-Route::resource('projects', ProjectController::class)->middleware('auth');;
+Route::resource('projects', ProjectController::class)->middleware('auth');
 
 // Route::resource('projects', 'ProjectController');
 
